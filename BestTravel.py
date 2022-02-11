@@ -23,10 +23,6 @@ def choose_best_sum(t, k, ls):
     # k  - number of towns to visit
     # ls - list of distances
     
-    # Test bad code quality
-    stupid = 1
-    stupid = stupid
-    
     if k > len(ls):
         return None
     
